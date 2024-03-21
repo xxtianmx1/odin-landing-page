@@ -44,30 +44,37 @@ a{
 
 #quote{
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 400px;
     gap: 0px;
     
 }
 
-#quote-text{
+#div-quote{
     width: 760px;
-    border: 1px solid red;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quote-text{
+    margin-bottom: 0;
+    
 }
 
 #quote-author{
     text-align: right;
-    border: 1px solid red;
     align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
 }
 
 #footer{
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
