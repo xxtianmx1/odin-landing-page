@@ -12,16 +12,14 @@ a{
     text-decoration: none;
 }
 
-#header-wrapper{
-    width: 100%;
-    background-color: red;
+#header-wrapper, #quote-wrapper{
     display: flex;
 }
 
 #header{
     flex-grow: 1;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 60px;
     padding: 10px;
@@ -43,8 +41,36 @@ a{
     font-size: 18px;
 }
 
-#left-column, #right-column{
-    background-color: #1f2837;
-    width: 300px;
+
+#quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 0px;
     
+}
+
+#quote-text{
+    width: 760px;
+    border: 1px solid red;
+}
+
+#quote-author{
+    text-align: right;
+    border: 1px solid red;
+    align-self: flex-end;
+}
+
+#footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2837;
+    color: #F9FAF8;
 }
